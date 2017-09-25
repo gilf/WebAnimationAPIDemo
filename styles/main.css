@@ -1,0 +1,28 @@
+body {
+    background-color: lightgreen;
+}
+
+#perspective {
+    margin-left: calc((100vw - 50vmin) / 2);
+    margin-top: calc((100vh - 50vmin) / 4);
+    width: 50vmin;
+    height: 50vmin;
+    perspective: 60vmin;
+}
+
+#container {
+    width: 50vmin;
+    height: 50vmin;
+    line-height: 0;
+    transform-style: preserve-3d;
+    background-color: azure;
+}
+
+.box {
+    display: inline-block;
+    background: darkslategray;
+}
+
+.change-form {
+    text-align: center;
+}
